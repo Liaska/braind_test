@@ -1,8 +1,8 @@
-let itemOpener = document.querySelector(".item_review-opener");
-let reviewText = document.querySelector(".itemReview-text");
+let itemOpener = document.querySelector(".reviewItem_review-opener");
+let reviewText = document.querySelector(".reviewItem__text");
 
 itemOpener.onclick = function () {
-    reviewText.classList.toggle("closed");
+    reviewText.classList.toggle("hiddenPart");
 }
 
 

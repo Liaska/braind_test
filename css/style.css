@@ -470,3 +470,6 @@ button {
     text-align: left;
   }
 }
+body {
+  padding-bottom: 150px;
+}

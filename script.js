@@ -27,7 +27,10 @@ zoomActivate.querySelector(".zoomer__close").onclick = function () {
     zoomActivate.classList.toggle("disactivated");
 }
 
-zoomActivate.onclick = function () {
+zoomActivate.onclick = function (e) {
+    if(e.target == imageOfZoom) {
+        return
+    }
     zoomActivate.classList.add("disactivated");
 }
 
